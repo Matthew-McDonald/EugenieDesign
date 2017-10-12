@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
   <meta name="viewport" content="width=device-width">
 </head>
+
 <body>
+
   <!--------------HEADER------------------->
 
   <div class="headerContainer">
@@ -20,13 +22,13 @@
 
   <div class="leftSideGrid">
     <div class="navBar">
-      <a href="#one">Original Work</a>
+      <a class="navLink" href="#one">Original Work</a>
     <br/>
-      <a href="#two">Prints</a>
+      <a class="navLink" href="#two">Prints</a>
     <br/>
-      <a href="#three">Notecards</a>
+      <a class="navLink" href="#three">Notecards</a>
     <br/>
-      <a href="#Contact">Contact</a>
+      <a class="navLink" href="#Contact">Contact</a>
     </div>
   </div>
 
@@ -38,19 +40,19 @@
 
   <section class="originalWorkSection">
 
-    <a id="one"><h2>Original Work</h2></a>
+    <div class="sectionTitle"><a id="one" class="anchorLink"><h2>Original Work</h2></a></div>
     <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
-      <!---BEE BALM--->
+      <!---COLUMBINE--->
       <div class="grid-item">
-        <a class="" href="images/Originals/Bee Balm-Original.jpg" data-lightbox="original-set" data-title="'Bee Balm' - Pen & Ink - 9x12"><img class="originalImage" src="images/Originals/Bee Balm-Original.jpg" alt="Bee Balm"/></a>
+        <a class="" href="images/Originals/Columbine-Original.jpg" data-lightbox="original-set" data-title="'Columbine' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Columbine-Original.jpg" alt="Columbine"/></a>
       </div>
       <!---BERRIES--->
       <div class="grid-item">
         <a class="" href="images/Originals/Berries-Original.jpg" data-lightbox="original-set" data-title="'Mixed Berries' - Graphite - 10x5"><img class="originalImage" src="images/Originals/Berries-Original.jpg" alt="Mixed Berries"/></a>
       </div>
-      <!---COLUMBINE--->
+      <!---Hellebore--->
       <div class="grid-item">
-        <a class="" href="images/Originals/Columbine-Original.jpg" data-lightbox="original-set" data-title="'Columbine' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Columbine-Original.jpg" alt="Columbine"/></a>
+        <a class="" href="images/Originals/Hellebore-Original.jpg" data-lightbox="original-set" data-title="'Hellebore' - Pen & Ink - 9x12"><img class="originalImage" src="images/Originals/Hellebore-Original.jpg" alt="Hellebore"/></a>
       </div>
       <!---Garden Herbs--->
       <div class="grid-item">
@@ -64,9 +66,9 @@
       <div class="grid-item">
         <a class="" href="images/Originals/Fall Dogwood-Original.jpg" data-lightbox="original-set" data-title="'Fall Dogwood' - Water Color - 17x11"><img class="originalImage" src="images/Originals/Fall Dogwood-Original.jpg" alt="Fall Dogwood"/></a>
       </div>
-      <!---Hellebore--->
+      <!---BEE BALM--->
       <div class="grid-item">
-        <a class="" href="images/Originals/Hellebore-Original.jpg" data-lightbox="original-set" data-title="'Hellebore' - Pen & Ink - 9x12"><img class="originalImage" src="images/Originals/Hellebore-Original.jpg" alt="Hellebore"/></a>
+        <a class="" href="images/Originals/Bee Balm-Original.jpg" data-lightbox="original-set" data-title="'Bee Balm' - Pen & Ink - 9x12"><img class="originalImage" src="images/Originals/Bee Balm-Original.jpg" alt="Bee Balm"/></a>
       </div>
       <!---Knock Out Roses--->
       <div class="grid-item">
@@ -99,7 +101,7 @@
 
   <section>
 
-    <a id="two"><h2>Prints</h2></a>
+    <a id="two" class="anchorLink"><h2>Prints</h2></a>
     <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
       <!---Bee Balm--->
       <div class="grid-item">
@@ -146,11 +148,19 @@
   </section>
   <section>
 
-    <a id="three"><h2>Notecards</h2></a>
+    <a id="three" class="anchorLink"><h2>Notecards</h2></a>
     <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
+      <!---Loblolly Pine--->
+      <div class="grid-item">
+        <a class="" href="images/NoteCards/Loblolly Pine-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Loblolly Pine Note Card'"><img class="noteCardImage" src="images/NoteCards/Loblolly Pine-NoteCard.jpg" alt="Loblolly Pine Note Card"/></a>
+      </div>
       <!---Bee Balm--->
       <div class="grid-item">
         <a class="" href="images/NoteCards/Bee Balm-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Bee Balm Note Card'"><img class="noteCardImage" src="images/NoteCards/Bee Balm-NoteCard.jpg" alt="Bee Balm Note Card"/></a>
+      </div>
+      <!---Spring Dogwood--->
+      <div class="grid-item">
+        <a class="" href="images/NoteCards/Spring Dogwood-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Spring Dogwood Note Card'"><img class="noteCardImage" src="images/NoteCards/Spring Dogwood-NoteCard.jpg" alt="Spring Dogwood Note Card"/></a>
       </div>
       <!---Columbine--->
       <div class="grid-item">
@@ -160,14 +170,6 @@
       <div class="grid-item">
         <a class="" href="images/NoteCards/Purple Stem Aster-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Purplestem Aster Note Card'"><img class="noteCardImage" src="images/NoteCards/Purple Stem Aster-NoteCard.jpg" alt="Purplestem Aster Note Card"/></a>
       </div>
-      <!---Fall Dogwood--->
-      <div class="grid-item">
-        <a class="" href="images/NoteCards/Fall Dogwood-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Fall Dogwood Note Card'"><img class="noteCardImage" src="images/NoteCards/Fall Dogwood-NoteCard.jpg" alt="Fall Dogwood Note Card"/></a>
-      </div>
-      <!---Loblolly Pine--->
-      <div class="grid-item">
-        <a class="" href="images/NoteCards/Loblolly Pine-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Loblolly Pine Note Card'"><img class="noteCardImage" src="images/NoteCards/Loblolly Pine-NoteCard.jpg" alt="Loblolly Pine Note Card"/></a>
-      </div>
       <!---Mixed Berries--->
       <div class="grid-item">
         <a class="" href="images/NoteCards/Mixed Berries-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Mixed Berries Note Card'"><img class="noteCardImage" src="images/NoteCards/Mixed Berries-NoteCard.jpg" alt="Mixed Berries Note Card"/></a>
@@ -176,10 +178,12 @@
       <div class="grid-item">
         <a class="" href="images/NoteCards/Passion Vine-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Passion Vine Note Card'"><img class="noteCardImage" src="images/NoteCards/Passion Vine-NoteCard.jpg" alt="Passion Vine Note Card"/></a>
       </div>
-      <!---Spring Dogwood--->
+      <!---Fall Dogwood--->
       <div class="grid-item">
-        <a class="" href="images/NoteCards/Spring Dogwood-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Spring Dogwood Note Card'"><img class="noteCardImage" src="images/NoteCards/Spring Dogwood-NoteCard.jpg" alt="Spring Dogwood Note Card"/></a>
+        <a class="" href="images/NoteCards/Fall Dogwood-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Fall Dogwood Note Card'"><img class="noteCardImage" src="images/NoteCards/Fall Dogwood-NoteCard.jpg" alt="Fall Dogwood Note Card"/></a>
       </div>
+
+
     </div>
   </div>
 </div>

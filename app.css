@@ -12,21 +12,38 @@
 .navBar {
   position: fixed;
 }
+.navLink {
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+  margin-left: 5px;
+  font-size: 18px;
+}
+.navLink:hover {
+  color: red;
+}
+
+.anchorLink {
+  text-decoration: none;
+  outline: none;
+
+}
+
 /*GRID FOR BODY OF PAGE*/
 .gridContainer {
   display: grid;
   grid-template-columns: 0.3fr 0.7fr;
 }
 .leftSideGrid {
-  width: 10vw;
+  width: 15vw;
 }
 .rightSideGrid {
-  width: 90vw;
+  width: 85vw;
 }
 
 /*GRID FOR MASONRY*/
 .grid {
-  max-width: 90vw;
+  max-width: 85vw;
 }
 
 .grid:after {
@@ -35,7 +52,16 @@
   clear: both;
 }
 .grid-item {
-  margin: 5px;
+  margin: 7px;
+
+}
+.grid-item:hover {
+  transform: scale(1.03);
+  transition: .5s;
+  /*-webkit-box-shadow: 6px 6px 5px 0px rgba(212,210,212,1);
+-moz-box-shadow: 6px 6px 5px 0px rgba(212,210,212,1);
+box-shadow: 6px 6px 5px 0px rgba(212,210,212,1);*/
+
 }
 
 /*IMAGE SIZES*/
@@ -49,6 +75,10 @@
   heigh: auto;
 }
 .noteCardImage {
-  width: 10vw;
+  width: 15vw;
   heigh: auto;
 }
+
+
+
+/**/
