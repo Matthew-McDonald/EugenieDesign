@@ -5,55 +5,180 @@
   <title>Lightbox Example</title>
   <link rel ="stylesheet" href="app.css">
   <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
+  <meta name="viewport" content="width=device-width">
 </head>
 <body>
+  <div class="headerContainer">
+    <h1>Eugenie Design</h1>
+  </div>
+  <div class="gridContainer">
+  <div class="leftSideGrid">
+    <div class="navBar">
+    <a href="#OriginalWork">Original Work</a>
+    <br/>
+    <a href="#Prints">Prints</a>
+    <br/>
+    <a href="#Notecards">Notecards</a>
+    </div>
+
+  </div>
+  <div class="rightSideGrid">
 
   <section class="originalWorkSection">
+    <a name="OriginalWork"><h2>Original Work</h2></a>
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
 
-    <h3>Original Work</h3>
-    <div>
       <!---BEE BALM--->
-      <a class="" href="images/Originals/Bee Balm-Original.jpg" data-lightbox="original-set" data-title="'Bee Balm' - Pen & Ink - 9x12"><img class="originalPrint" src="images/Originals/Bee Balm-Original.jpg" alt="Bee Balm"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Bee Balm-Original.jpg" data-lightbox="original-set" data-title="'Bee Balm' - Pen & Ink - 9x12"><img class="originalImage" src="images/Originals/Bee Balm-Original.jpg" alt="Bee Balm"/></a>
+      </div>
       <!---BERRIES--->
-      <a class="" href="images/Originals/Berries-Original.jpg" data-lightbox="original-set" data-title="'Mixed Berries' - Graphite - 10x5"><img class="originalPrint" src="images/Originals/Berries-Original.jpg" alt="Mixed Berries"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Berries-Original.jpg" data-lightbox="original-set" data-title="'Mixed Berries' - Graphite - 10x5"><img class="originalImage" src="images/Originals/Berries-Original.jpg" alt="Mixed Berries"/></a>
+      </div>
       <!---COLUMBINE--->
-      <a class="" href="images/Originals/Columbine-Original.jpg" data-lightbox="original-set" data-title="'Columbine' - Water Color - 11x17"><img class="originalPrint" src="images/Originals/Columbine-Original.jpg" alt="Columbine"/></a>
-      <!---FALL DOGWOOD--->
-      <a class="" href="images/Originals/Fall Dogwood-Original.jpg" data-lightbox="original-set" data-title="'Fall Dogwood' - Water Color - 17x11"><img class="originalPrint" src="images/Originals/Fall Dogwood-Original.jpg" alt="Fall Dogwood"/></a>
-      <!---Fresh Figs--->
-      <a class="" href="images/Originals/Fresh Figs-Original.jpg" data-lightbox="original-set" data-title="'Fresh Figs' - Graphite - 10x5"><img class="originalPrint" src="images/Originals/Fresh Figs-Original.jpg" alt="Fresh Figs"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Columbine-Original.jpg" data-lightbox="original-set" data-title="'Columbine' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Columbine-Original.jpg" alt="Columbine"/></a>
+      </div>
+
       <!---Garden Herbs--->
-      <a class="" href="images/Originals/Garden Herbs-Original.jpg" data-lightbox="original-set" data-title="'Garden Herbs' - Pen & Ink - 11x17"><img class="originalPrint" src="images/Originals/Garden Herbs-Original.jpg" alt="Garden Herbs"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Garden Herbs-Original.jpg" data-lightbox="original-set" data-title="'Garden Herbs' - Pen & Ink - 11x17"><img class="originalImage" src="images/Originals/Garden Herbs-Original.jpg" alt="Garden Herbs"/></a>
+      </div>
+
       <!---Hazelnut Seed Pod--->
-      <a class="" href="images/Originals/Hazelnut Seed Pod Study-Original.jpg" data-lightbox="original-set" data-title="'Hazelnut Seed Pod' - Water Color - 11x17"><img class="originalPrint" src="images/Originals/Hazelnut Seed Pod Study-Original.jpg" alt="Hazelnut Seed Pod"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Hazelnut Seed Pod Study-Original.jpg" data-lightbox="original-set" data-title="'Hazelnut Seed Pod' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Hazelnut Seed Pod Study-Original.jpg" alt="Hazelnut Seed Pod"/></a>
+      </div>
+      <!---FALL DOGWOOD--->
+      <div class="grid-item">
+      <a class="" href="images/Originals/Fall Dogwood-Original.jpg" data-lightbox="original-set" data-title="'Fall Dogwood' - Water Color - 17x11"><img class="originalImage" src="images/Originals/Fall Dogwood-Original.jpg" alt="Fall Dogwood"/></a>
+      </div>
       <!---Hellebore--->
-      <a class="" href="images/Originals/Hellebore-Original.jpg" data-lightbox="original-set" data-title="'Hellebore' - Pen & Ink - 9x12"><img class="originalPrint" src="images/Originals/Hellebore-Original.jpg" alt="Hellebore"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Hellebore-Original.jpg" data-lightbox="original-set" data-title="'Hellebore' - Pen & Ink - 9x12"><img class="originalImage" src="images/Originals/Hellebore-Original.jpg" alt="Hellebore"/></a>
+      </div>
       <!---Knock Out Roses--->
-      <a class="" href="images/Originals/Knock Out Rose-Original.jpg" data-lightbox="original-set" data-title="'Knock Out Roses' - Water Color - 11x17"><img class="originalPrint" src="images/Originals/Knock Out Rose-Original.jpg" alt="Knock Out Roses"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Knock Out Rose-Original.jpg" data-lightbox="original-set" data-title="'Knock Out Roses' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Knock Out Rose-Original.jpg" alt="Knock Out Roses"/></a>
+      </div>
+      <!---Fresh Figs--->
+      <div class="grid-item">
+      <a class="" href="images/Originals/Fresh Figs-Original.jpg" data-lightbox="original-set" data-title="'Fresh Figs' - Graphite - 10x5"><img class="originalImage" src="images/Originals/Fresh Figs-Original.jpg" alt="Fresh Figs"/></a>
+      </div>
+      <!---Purplestem Aster--->
+      <div class="grid-item">
+      <a class="" href="images/Originals/Purple Stem Aster-Original.jpg" data-lightbox="original-set" data-title="'Purplestem Aster' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Purple Stem Aster-Original.jpg" alt="Purplestem Aster"/></a>
+      </div>
       <!---Loblolly Pine--->
-      <a class="" href="images/Originals/Loblolly Pine-Original.jpg" data-lightbox="original-set" data-title="'Loblolly Pine' - Water Color - 11x17"><img class="originalPrint" src="images/Originals/Loblolly Pine-Original.jpg" alt="Loblolly Pine"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Loblolly Pine-Original.jpg" data-lightbox="original-set" data-title="'Loblolly Pine' - Water Color - 11x17"><img class="originalImage" src="images/Originals/Loblolly Pine-Original.jpg" alt="Loblolly Pine"/></a>
+      </div>
       <!---Passion Vine--->
-      <a class="" href="images/Originals/Passion Vine-Original.jpg" data-lightbox="original-set" data-title="'Passion Vine' - Color Pencil - 17x11"><img class="originalPrint" src="images/Originals/Passion Vine-Original.jpg" alt="Passion Vine"/></a>
-      <!---Purple Stem Aster--->
-      <a class="" href="images/Originals/Purple Stem Aster-Original.jpg" data-lightbox="original-set" data-title="'Purple Stem Aster' - Water Color - 11x17"><img class="originalPrint" src="images/Originals/Purple Stem Aster-Original.jpg" alt="Purple Stem Aster"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Passion Vine-Original.jpg" data-lightbox="original-set" data-title="'Passion Vine' - Color Pencil - 17x11"><img class="originalImage" src="images/Originals/Passion Vine-Original.jpg" alt="Passion Vine"/></a>
+      </div>
       <!---Spring Dogwood--->
-      <a class="" href="images/Originals/Spring Dogwood-Original.jpg" data-lightbox="original-set" data-title="'Spring Dogwood' - Water Color - 17x11"><img class="originalPrint" src="images/Originals/Spring Dogwood-Original.jpg" alt="Spring Dogwood"/></a>
+      <div class="grid-item">
+      <a class="" href="images/Originals/Spring Dogwood-Original.jpg" data-lightbox="original-set" data-title="'Spring Dogwood' - Water Color - 17x11"><img class="originalImage" src="images/Originals/Spring Dogwood-Original.jpg" alt="Spring Dogwood"/></a>
+      </div>
 
     </div>
   </section>
   <section>
 
-    <h3>Available Prints</h3>
+    <a name="Prints"><h2>Prints</h2></a>
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
 
+      <!---Bee Balm--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Bee Balm-Print.JPG" data-lightbox="print-set" data-title="'Bee Balm Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Bee Balm-Print.JPG" alt="Bee Balm Print"/></a>
+      </div>
+      <!---Spring Dogwood--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Spring Dogwood-Print.JPG" data-lightbox="print-set" data-title="'Spring Dogwood Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Spring Dogwood-Print.JPG" alt="Spring Dogwood Print"/></a>
+      </div>
+      <!---Columbine--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Columbine-Print.JPG" data-lightbox="print-set" data-title="'Columbine Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Columbine-Print.JPG" alt="Columbine Print"/></a>
+      </div>
+      <!---Lily Seedpod--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Lily seedpod-Print.JPG" data-lightbox="print-set" data-title="'Lily Seedpod Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Lily seedpod-Print.JPG" alt="Lily Seedpod Print"/></a>
+      </div>
+      <!---Passion Vine--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Passion Vine-Print.jpg" data-lightbox="print-set" data-title="'Passion Vine Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Passion Vine-Print.jpg" alt="Passion Vine Print"/></a>
+      </div>
+      <!---Garden Herbs--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Garden Herbs-Print.JPG" data-lightbox="print-set" data-title="'Garden Herbs Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Garden Herbs-Print.JPG" alt="Garden Herbs Print"/></a>
+      </div>
+      <!---Mixed Berries--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Mixed Berries-Print.JPG" data-lightbox="print-set" data-title="'Mixed Berries Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Mixed Berries-Print.JPG" alt="Mixed Berries Print"/></a>
+      </div>
+      <!---Purplestem Aster--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Purplestem Aster-Print.JPG" data-lightbox="print-set" data-title="'Purplestem Aster Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Purplestem Aster-Print.JPG" alt="Purplestem Aster Print"/></a>
+      </div>
+      <!---Hazelnut--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Hazelnut-Print.JPG" data-lightbox="print-set" data-title="'Hazelnut Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Hazelnut-Print.JPG" alt="Hazelnut Print"/></a>
+      </div>
+      <!---Loblolly Pine--->
+      <div class="grid-item">
+      <a class="" href="images/Prints/Loblolly Pine-Print.JPG" data-lightbox="print-set" data-title="'Loblolly Pine Print' - Water Color - 15x18"><img class="printImage" src="images/Prints/Loblolly Pine-Print.JPG" alt="Loblolly Pine Print"/></a>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <a name="Notecards"><h2>Notecards</h2></a>
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
+
+      <!---Bee Balm--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Bee Balm-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Bee Balm Note Card'"><img class="noteCardImage" src="images/NoteCards/Bee Balm-NoteCard.jpg" alt="Bee Balm Note Card"/></a>
+      </div>
+      <!---Columbine--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Columbine-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Columbine Note Card'"><img class="noteCardImage" src="images/NoteCards/Columbine-NoteCard.jpg" alt="Columbine Note Card"/></a>
+      </div>
+      <!---Purplestem Aster--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Purple Stem Aster-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Purplestem Aster Note Card'"><img class="noteCardImage" src="images/NoteCards/Purple Stem Aster-NoteCard.jpg" alt="Purplestem Aster Note Card"/></a>
+      </div>
+      <!---Fall Dogwood--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Fall Dogwood-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Fall Dogwood Note Card'"><img class="noteCardImage" src="images/NoteCards/Fall Dogwood-NoteCard.jpg" alt="Fall Dogwood Note Card"/></a>
+      </div>
+      <!---Loblolly Pine--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Loblolly Pine-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Loblolly Pine Note Card'"><img class="noteCardImage" src="images/NoteCards/Loblolly Pine-NoteCard.jpg" alt="Loblolly Pine Note Card"/></a>
+      </div>
+      <!---Mixed Berries--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Mixed Berries-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Mixed Berries Note Card'"><img class="noteCardImage" src="images/NoteCards/Mixed Berries-NoteCard.jpg" alt="Mixed Berries Note Card"/></a>
+      </div>
+      <!---Passion Vine--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Passion Vine-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Passion Vine Note Card'"><img class="noteCardImage" src="images/NoteCards/Passion Vine-NoteCard.jpg" alt="Passion Vine Note Card"/></a>
+      </div>
+      <!---Spring Dogwood--->
+      <div class="grid-item">
+      <a class="" href="images/NoteCards/Spring Dogwood-NoteCard.jpg" data-lightbox="notecard-set" data-title="'Spring Dogwood Note Card'"><img class="noteCardImage" src="images/NoteCards/Spring Dogwood-NoteCard.jpg" alt="Spring Dogwood Note Card"/></a>
+      </div>
+    </div>
+
+    </div>
+    </div>
 
   </section>
 
-  <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js">
-  lightbox.option({
-  disableScrolling: true,
-  wrapAround: true
-});
-</script>
+
+  <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+  <script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
 
 </body>
 </html>

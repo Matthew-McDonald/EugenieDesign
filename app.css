@@ -1,4 +1,45 @@
-.originalPrint {
+.headerContainer {
+  background-color: lightgrey;
+  height: 5vw;
+}
+
+
+.originalImage {
   width: 20vw;
   heigh: auto;
+}
+.printImage {
+  width: 20vw;
+  heigh: auto;
+}
+.noteCardImage {
+  width: 10vw;
+  heigh: auto;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: .3fr .7fr;
+}
+.leftSideGrid {
+  width: 10vw;
+}
+.rightSideGrid {
+  width: 90vw;
+}
+.navBar {
+  position: fixed;
+}
+
+.grid {
+  max-width: 90vw;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-item {
+  margin: 5px;
 }
